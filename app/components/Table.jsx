@@ -10,7 +10,7 @@ const IMAGE_PLACEHOLDER = "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-
 const Table = ({ employeeData,handleDeleteEmployee }) => {
     return (
         <div className='m-3'>
-            <table border="1" className="bg-white border border-gray-300 w-[100%]">
+            <table border="1" className="able-auto border-collapse w-full sm:w-[100%] md:w-[100%] lg:w-[100%] xl:w-[100%]">
                 <thead className="bg-blue-500 text-xs  uppercase dark:bg-gray-700 dark:text-gray-400 text-white">
                     <tr>
                         <th className="px-6 py-3">Image</th>

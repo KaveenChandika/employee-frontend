@@ -7,9 +7,9 @@ const IMAGE_PLACEHOLDER = "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-
 const Cards = ({ photo, name, email, number, gender, id, handleDeleteEmployee }) => {
     return (
         <div>
-            <div className="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="bg-white border w-[100%] border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
-                    <img className="rounded-t-lg w-full h-full" src={photo ? photo : IMAGE_PLACEHOLDER} alt="" />
+                    <img className="rounded-t-lg w-[100%] h-full" src={photo ? photo : IMAGE_PLACEHOLDER} alt="" />
                 </a>
                 <div className="p-5">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{name}</h5>
